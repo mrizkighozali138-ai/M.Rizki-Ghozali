@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kekurangan Gizi di Indonesia</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: #243238;
+      background: #f4f8f5;
+    }
+    header {
+      background: linear-gradient(135deg, #176b5b, #2c9b78);
+      color: white;
+      padding: 70px 20px 60px;
+      text-align: center;
+    }
+    header .tag {
+      display: inline-block;
+      background: rgba(255,255,255,.16);
+      padding: 7px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      max-width: 850px;
+      margin: auto;
+      font-size: clamp(30px, 6vw, 52px);
+      line-height: 1.15;
+    }
+    header p {
+      max-width: 720px;
+      margin: 20px auto 0;
+      font-size: 17px;
+      opacity: .95;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: white;
+      box-shadow: 0 2px 12px rgba(0,0,0,.08);
+      padding: 12px 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #176b5b;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+    main {
+      max-width: 950px;
+      margin: 35px auto;
+      padding: 0 18px;
+    }
+    section {
+      background: white;
+      padding: 30px;
+      margin-bottom: 22px;
+      border-radius: 16px;
+      box-shadow: 0 4px 18px rgba(30,70,55,.07);
+    }
+    section h2 {
+      color: #176b5b;
+      margin-top: 0;
+      font-size: 26px;
+    }
+    .intro {
+      border-left: 5px solid #2c9b78;
+      background: #edf8f3;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .card {
+      padding: 20px;
+      border-radius: 12px;
+      background: #f5faf7;
+      border: 1px solid #dceee6;
+    }
+    .card h3 {
+      color: #176b5b;
+      margin-top: 0;
+    }
+    .number {
+      font-size: 28px;
+      font-weight: bold;
+      color: #2c9b78;
+    }
+    footer {
+      text-align: center;
+      background: #173d35;
+      color: white;
+      padding: 30px 15px;
+      margin-top: 40px;
+    }
+    footer p { margin: 5px; }
+    @media (max-width: 700px) {
+      .cards { grid-template-columns: 1fr; }
+      section { padding: 23px; }
+      nav a { display: inline-block; margin: 4px 7px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="tag">ARTIKEL KESEHATAN</div>
+  <h1>Kekurangan Gizi di Indonesia</h1>
+  <p>Analisis penyebab, dampak, dan upaya penanggulangan kekurangan gizi dalam kehidupan masyarakat.</p>
+</header>
+
+<nav>
+  <a href="#pendahuluan">Pendahuluan</a>
+  <a href="#penyebab">Penyebab</a>
+  <a href="#dampak">Dampak</a>
+  <a href="#upaya">Upaya</a>
+  <a href="#penutup">Penutup</a>
+</nav>
+
+<main>
+  <section id="pendahuluan" class="intro">
+    <h2>Pendahuluan</h2>
+    <p>
+      Kekurangan gizi merupakan salah satu permasalahan kesehatan masyarakat yang
+      masih menjadi tantangan di Indonesia. Masalah ini dapat memengaruhi kualitas
+      sumber daya manusia karena kebutuhan zat gizi yang tidak terpenuhi secara
+      optimal dapat mengganggu kesehatan, pertumbuhan, dan perkembangan seseorang.
+    </p>
+    <p>
+      Kekurangan gizi tidak hanya terjadi karena kurangnya makanan, tetapi juga
+      dapat dipengaruhi oleh kondisi ekonomi keluarga, pengetahuan tentang pola
+      makan sehat, serta akses terhadap makanan bergizi dan pelayanan kesehatan.
+    </p>
+  </section>
+
+  <section id="penyebab">
+    <h2>Penyebab Kekurangan Gizi</h2>
+    <p>
+      Salah satu penyebab utama kekurangan gizi adalah kurangnya asupan makanan
+      yang bergizi dan seimbang. Tubuh membutuhkan berbagai zat gizi seperti
+      karbohidrat, protein, vitamin, dan mineral untuk menjalankan berbagai fungsi
+      dengan baik. Apabila kebutuhan tersebut tidak terpenuhi dalam waktu yang
+      cukup lama, tubuh dapat mengalami kekurangan gizi.
+    </p>
+    <p>
+      Faktor ekonomi keluarga juga memiliki pengaruh terhadap masalah kekurangan
+      gizi. Tidak semua keluarga memiliki kemampuan untuk menyediakan makanan
+      yang beragam dan bergizi sesuai dengan kebutuhan anggota keluarganya.
+      Kurangnya pengetahuan mengenai pola makan sehat juga dapat menyebabkan
+      pemilihan makanan yang tidak sesuai dengan kebutuhan tubuh.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="number">01</div>
+        <h3>Asupan Gizi</h3>
+        <p>Kurangnya makanan yang mengandung zat gizi sesuai kebutuhan tubuh.</p>
+      </div>
+      <div class="card">
+        <div class="number">02</div>
+        <h3>Ekonomi</h3>
+        <p>Keterbatasan ekonomi dapat menyulitkan keluarga menyediakan makanan bergizi.</p>
+      </div>
+      <div class="card">
+        <div class="number">03</div>
+        <h3>Pengetahuan</h3>
+        <p>Kurangnya pemahaman tentang pola makan sehat dapat memengaruhi pilihan makanan.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kekurangan Gizi pada Anak</h2>
+    <p>
+      Pada anak-anak, masalah kekurangan gizi perlu mendapat perhatian lebih.
+      Pemberian makanan pendamping ASI (MPASI) yang kurang bergizi, kurangnya
+      asupan makanan, serta kondisi lingkungan yang kurang sehat dapat meningkatkan
+      risiko kekurangan gizi.
+    </p>
+    <p>
+      Pada masa pertumbuhan, anak membutuhkan zat gizi yang cukup agar pertumbuhan
+      dan perkembangannya dapat berlangsung dengan baik. Oleh karena itu,
+      pemenuhan gizi sejak usia dini sangat penting untuk mendukung kesehatan anak.
+    </p>
+  </section>
+
+  <section id="dampak">
+    <h2>Dampak Kekurangan Gizi</h2>
+    <p>
+      Kekurangan gizi dapat menimbulkan berbagai dampak terhadap kesehatan.
+      Pada anak-anak, kekurangan gizi dapat menyebabkan gangguan pertumbuhan
+      seperti stunting dan wasting. Selain itu, kondisi tersebut dapat meningkatkan
+      risiko anemia, menurunkan daya tahan tubuh, serta menghambat perkembangan anak.
+    </p>
+    <p>
+      Dalam jangka panjang, masalah gizi juga dapat memengaruhi kemampuan belajar
+      dan perkembangan seseorang sehingga berpotensi memengaruhi kualitas sumber
+      daya manusia.
+    </p>
+  </section>
+
+  <section id="upaya">
+    <h2>Upaya Penanggulangan</h2>
+    <p>
+      Untuk mengatasi masalah kekurangan gizi, diperlukan upaya dari berbagai pihak,
+      baik keluarga, masyarakat maupun pemerintah. Salah satu langkah yang dapat
+      dilakukan adalah meningkatkan pengetahuan masyarakat mengenai pentingnya
+      pola makan bergizi dan seimbang.
+    </p>
+    <p>
+      Pemenuhan kebutuhan gizi dapat dilakukan dengan mengonsumsi makanan yang
+      beragam sesuai kebutuhan tubuh. Pada anak-anak, pemantauan pertumbuhan
+      melalui berat badan dan tinggi badan juga penting dilakukan secara rutin
+      agar masalah pertumbuhan dapat diketahui lebih awal.
+    </p>
+    <p>
+      Selain itu, pemberian ASI dan MPASI yang sesuai, menjaga kebersihan serta
+      sanitasi lingkungan, dan meningkatkan akses terhadap pelayanan kesehatan
+      juga menjadi bagian penting dalam pencegahan kekurangan gizi.
+    </p>
+  </section>
+
+  <section id="penutup" class="intro">
+    <h2>Penutup</h2>
+    <p>
+      Dengan demikian, kekurangan gizi merupakan masalah yang tidak hanya berkaitan
+      dengan makanan, tetapi juga dipengaruhi oleh faktor ekonomi, pengetahuan,
+      kesehatan, dan lingkungan. Penanganan masalah ini membutuhkan perhatian dan
+      kerja sama dari berbagai pihak.
+    </p>
+    <p>
+      Melalui pemenuhan gizi yang baik, peningkatan pengetahuan masyarakat, serta
+      pemantauan kesehatan secara rutin, masalah kekurangan gizi dapat dicegah dan
+      kualitas kesehatan serta sumber daya manusia di Indonesia dapat ditingkatkan.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p><strong>Kekurangan Gizi di Indonesia</strong></p>
+  <p>Artikel edukasi — dibuat berdasarkan catatan yang diberikan.</p>
+</footer>
+
+</body>
+</html>
